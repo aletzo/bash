@@ -9,3 +9,8 @@ HOW TO INSTALL
 2. git clone http://github.com/aletzo/bash.git ~/dotfiles
 3. cd dotfiles
 4. sh bootstrap.sh
+
+HOW TO UPDATE
+=============
+1. cd ~/dotfiles
+2. sh bootstrap.sh
