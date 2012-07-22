@@ -5,6 +5,7 @@ if [ $? -eq 1 ] ; then
 fi
 
 export PATH=/usr/local/bin/ctags:$PATH
+export PATH=/usr/local/bin:$PATH
 
 ##
 # Your previous /Users/ajo/.bash_profile file was backed up as /Users/ajo/.bash_profile.macports-saved_2012-06-14_at_13:24:09
@@ -25,14 +26,14 @@ alias aliashelp='sh /Users/ajo/.shellscripts/aliashelp.sh'
 alias aliassetup='open -a BBEdit /Users/ajo/.bash_profile'
 alias apache='sudo /usr/sbin/apachectl'
 alias clearsvn='sh /Users/ajo/.shellscripts/clearsvn.sh'
-alias hidehiddenfiles='defaults write com.apple.Finder AppleShowAllFiles NO'
+alias hide='defaults write com.apple.Finder AppleShowAllFiles NO'
 #alias hosts='sudo nano -w /private/etc/hosts'
 alias hosts='open -a BBEdit /private/etc/hosts'
 alias www='cd /Library/WebServer/Documents'
 alias httpdconf='open -a BBEdit /Applications/MAMP/conf/apache/httpd.conf'
 alias killfinder='killall Finder'
 alias phpini='open -a BBEdit /private/etc/php.ini'
-alias showhiddenfiles='defaults write com.apple.Finder AppleShowAllFiles YES'
+alias show='defaults write com.apple.Finder AppleShowAllFiles YES'
 alias switchphpini='sh /Users/ajo/.shellscripts/switchphpini.sh'
 
 test -r /sw/bin/init.sh && . /sw/bin/init.sh
