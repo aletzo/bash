@@ -35,6 +35,8 @@ alias hosts='open -a BBEdit /private/etc/hosts'
 alias httpdconf='open -a BBEdit /Applications/MAMP/conf/apache/httpd.conf'
 alias killfinder='killall Finder'
 alias l='ls- l'
+alias phplines='wc -l `find . -iname "*.php"`'
+alias jslines='wc -l `find . -iname "*.js"`'
 alias phpini='open -a BBEdit /private/etc/php.ini'
 alias proj='cd /Library/WebServer/Documents/Projects'
 alias show='defaults write com.apple.Finder AppleShowAllFiles YES'
@@ -51,10 +53,4 @@ function openproject()
 function permissions()
 {
 	chmod -R -v -v $1 $2
-}
-
-
-function linesofcode()
-{
-    wc -l `find . -iname "*.$1"`
 }
