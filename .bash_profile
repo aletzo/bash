@@ -54,3 +54,7 @@ function permissions()
 }
 
 
+function linesofcode()
+{
+    wc -l `find . -iname "*.$1"`
+}
