@@ -1,6 +1,6 @@
-This is my set up for the .bash_profile file.
+This is a simple script to set up my terminal environment settings (`.bash_profile` and `.zshrc`).
 
-Additional scripts are inside the .shellscripts directory
+Additional scripts are inside the `.shellscripts` directory.
 
 HOW TO INSTALL
 ==============
